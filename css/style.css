@@ -1,0 +1,100 @@
+.jumbotron{
+	min-height: 300px;
+	margin: 0 auto;
+	padding: 60px;
+	border: 5px double #bbb;
+	background-color: #ddd;
+	padding-top: 100px;
+}
+.jumbotron{
+	background-image: url('../img/th.png');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 0 -130px;
+	overflow: hidden;
+}
+.jumbotron h2{
+	font-family: serif;
+	color: #ccc;
+    text-shadow: 0 1px 0 white;
+    text-shadow: 1px 4px 4px darkred, -5px -5px 5px #000;
+}
+.jumbotron p{
+	font-size: 20px;
+	color: #ccc;
+	text-shadow: 1px 4px 6px darkred, -5px -5px 5px #000;
+}
+.jumbotron img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 5px inset gray;
+}
+.about{
+	padding-top: 30px;
+	min-height: 500px;
+	border: 5px double #bbb;
+}
+.about .pSatu, .about .pDua{
+	opacity: 0;
+	transform: translate(-50px,0px);
+	transition: 0.7s;
+}
+.about .pDua{
+	transform: translate(50px,0);
+}
+.about .pSatu.muncul, .about .pDua.muncul{
+	opacity: 1;
+	transform: translate(0px,0px);
+}
+hr{
+	width: 250px;
+	display: inline-block;
+	border-top: 4px solid black;
+	text-align: center;
+}
+.about h2{
+	padding-top: 10px;
+}
+.Navigasi .container .row{
+	padding-bottom: 40px;
+}
+.Navigasi a{
+	display: block;
+}
+.Navigasi{
+	text-align: center;
+	background: #e1efbb url(p2.jpp);
+	padding: 40px;
+	border: 5px double #eaeaea;
+}
+.Navigasi img{
+	border: 5px inset #eaeaea;
+}
+.Navigasi .thumbnail{
+	opacity: 0;
+	transform: scale(0);
+	transition: 2s;
+}
+.Navigasi .thumbnail.muncul{
+	opacity: 1;
+	transform: scale(1 );
+}
+.contact{
+	padding-top: 40px;
+	min-height: 750px;
+	border: 5px double #bbb;
+}
+.copy{
+	width: 100%;
+	background-color: black;
+	height: 100px;
+	position: absolute;
+	padding-top: 25px;
+}
+.copy a{
+	display: inline-block;
+}
+.copy p{
+	color: #fff;
+}
